@@ -18,11 +18,10 @@ Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by
 
 ```
 proj/
-├── lib/
-├── data/
-├── doc/
-├── figs/
-└── output/
+├── data/ data used in analytics
+├── doc/ report, presentation files, and/or final deliverables
+├── figs/ figures
+└── output/ analysis output, processed datasets, logs, or other processed things.
 ```
 
 Please see each subfolder for a README file.
