@@ -2,4 +2,4 @@
 
 ### Doc folder
 
-The doc directory contains the report or presentation files. It can have subfolders.  
+The doc directory contains the report or presentation files. See "ADS Project 1 Report.ipynb" for final deliverable report.
