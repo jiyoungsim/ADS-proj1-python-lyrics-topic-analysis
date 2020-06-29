@@ -12,7 +12,7 @@ Term: Fall 2019
 + Projec title: Lyrics Topic Modeling
 + This project is conducted by Young Sim
 
-+ Project summary: This project uses natural language processing and text mining techniques to do a topic analysis on lyrics over different genres and decades. Topic analysis using TF-IDF scores, word clouds, and Latent Dirichlet allocation is followed by some plot visualizations over genre and time. Python Natural Language Toolkit is used for text data analysis.
++ Project summary: This project uses natural language processing and text mining techniques to do a topic analysis on lyrics over different genres and decades. Topic analysis using TF-IDF scores, word clouds, and Latent Dirichlet Allocation is followed by some plot visualizations over genre and time. Python Natural Language Toolkit is used for text data analysis.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
