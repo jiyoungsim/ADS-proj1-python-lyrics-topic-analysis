@@ -34,6 +34,8 @@
        + By Genre
        
           <img src="/figs/wordcloud_pop.png?raw=true" width="600">
+          <img src="/figs/wordcloud_rnb.png?raw=true" width="600">
+          <img src="/figs/wordcloud_jazz.png?raw=true" width="600">
           
        Again, 'love' was a popular word in most genres. An interesting observation on 'pop' is that it talks relatively less about 'love' compared to most other genres except 'Rock' and 'Hop-Hop'. 
        + By Decade
