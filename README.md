@@ -9,32 +9,38 @@
 
   + Data Overview
   <img src="/figs/count_by_genre.png?raw=true" width="600">
+  
   There are 10 different genres included in the data. 'Rock' is the most dominant in terms of number of songs. 'Pop', 'Metal', 'Hip-Hop', and 'Country' follow respectively.
   <img src="/figs/count_by_decade.png?raw=true" width="600">
+  
   Data span from the 1970s to the 2010s. 'Rock' is the most dominant over the whole time period but since 1990s, 'Pop' and 'Hip-Hop' has continued to grow while the proportion of 'Rock' has decreased.
   
   + TF-IDF
-   + By Genre
-   <img src="/figs/tfidf_metal.png?raw=true" width="600">
-   <img src="/figs/tfidf_hiphop.png?raw=true" width="600">
-   It is notable that 'love' is a common topic over different genres. Meanwhile, 'Metal' and 'Hip-Hop' were the only two genres that the top features did not include 'love'. 'Metal' included words like 'life' and 'time' and 'Hip-Hop' was the only genre with a slang included in top features.
-   + By Decade
-   <img src="/figs/tfidf_1970.png?raw=true" width="600">
-   <img src="/figs/tfidf_2010.png?raw=true" width="600">
-   Top features in different decades were relatively more similar. As in scores by genre, 'love' was a popular word in all times.
+        + By Genre        
+         <img src="/figs/tfidf_metal.png?raw=true" width="500">
+         <img src="/figs/tfidf_hiphop.png?raw=true" width="500">
+         
+       It is notable that 'love' is a common topic over different genres. Meanwhile, 'Metal' and 'Hip-Hop' were the only two genres that the top features did not include 'love'. 'Metal' included words like 'life' and 'time' and 'Hip-Hop' was the only genre with a slang included in top features.
+        + By Decade
+         <img src="/figs/tfidf_1970.png?raw=true" width="500">
+         <img src="/figs/tfidf_2010.png?raw=true" width="500">
+   
+       Top features in different decades were relatively more similar. As in scores by genre, 'love' was a popular word in all times.
    
   + Word Clouds
-   + By Genre
-   <img src="/figs/wordcloud_pop.png?raw=true" width="600">
-    Again, 'love' was a popular word in most genres. An interesting observation on 'pop' is that it talks relatively less about 'love' compared to most other genres except 'Rock' and 'Hop-Hop'. 
-   + By Decade
-   <img src="/figs/wordcloud_1970.png?raw=true" width="600">
-   <img src="/figs/wordcloud_2010.png?raw=true" width="600">
-    The word clouds for different decades were relatively more similar over time. Some popular words of all time include 'love', 'time', 'day', and 'know'.
+        + By Genre
+          <img src="/figs/wordcloud_pop.png?raw=true" width="600">
+          
+       Again, 'love' was a popular word in most genres. An interesting observation on 'pop' is that it talks relatively less about 'love' compared to most other genres except 'Rock' and 'Hop-Hop'. 
+         + By Decade
+           <img src="/figs/wordcloud_1970.png?raw=true" width="600">
+           <img src="/figs/wordcloud_2010.png?raw=true" width="600">
+    
+       The word clouds for different decades were relatively more similar over time. Some popular words of all time include 'love', 'time', 'day', and 'know'.
 
   + Latent Dirichlet Allocation (LDA)
-   + By Genre: Some observations showed similar patterens as in the TF-IDF scores and word clouds. 'Love' was a popular topic among all genres, slangs were included in 'Hip-Hop', and many dark, metaphysical topics were inlucded in 'Metal'. There were also some additional interesting findings. 'Money' related topics were included in 'Pop' and 'Hip-Hop'. Another interesting observation is the way in which 'love' is described in different genres. While 'love' was a popular topic over all genres, some genres tended to talk more about 'love' and in different ways. For example, in genres like 'Country', 'Jazz' and 'Indie', the word 'love' was included in more than 4 topics out of 10. The way in which 'love' is described also seemed to differ between genres. For example, while 'love' was included in the same topic with words like 'fuck', 'never', 'noth', 'everyth' in 'Metal', in 'Country' it was included in the same topic with words like 'sweet', 'shile', 'heaven', and 'angel'.
-   + By Decade: As observed in the previous analysis, 'love' has been a popular topic over all times. While in 1980s there were 'love' included in notably more topics than in other decades, there were relatively less difference over time in the way in which 'love' is described compared to LDA modeling by Genre. What is interesting is that starting from 1980s, where data for 'Hip-Hop' was first included, one or more slang is included in the topics for every decade and the number of slangs increase as it gets closer to the 2010s. This reflects the growth of 'Hip-Hop' over decade visualized in the graph 'Percentage of Each Genre by Decade.'
+        + By Genre: Some observations showed similar patterens as in the TF-IDF scores and word clouds. 'Love' was a popular topic among all genres, slangs were included in 'Hip-Hop', and many dark, metaphysical topics were inlucded in 'Metal'. There were also some additional interesting findings. 'Money' related topics were included in 'Pop' and 'Hip-Hop'. Another interesting observation is the way in which 'love' is described in different genres. While 'love' was a popular topic over all genres, some genres tended to talk more about 'love' and in different ways. For example, in genres like 'Country', 'Jazz' and 'Indie', the word 'love' was included in more than 4 topics out of 10. The way in which 'love' is described also seemed to differ between genres. For example, while 'love' was included in the same topic with words like 'fuck', 'never', 'noth', 'everyth' in 'Metal', in 'Country' it was included in the same topic with words like 'sweet', 'shile', 'heaven', and 'angel'.
+        + By Decade: As observed in the previous analysis, 'love' has been a popular topic over all times. While in 1980s there were 'love' included in notably more topics than in other decades, there were relatively less difference over time in the way in which 'love' is described compared to LDA modeling by Genre. What is interesting is that starting from 1980s, where data for 'Hip-Hop' was first included, one or more slang is included in the topics for every decade and the number of slangs increase as it gets closer to the 2010s. This reflects the growth of 'Hip-Hop' over decade visualized in the graph 'Percentage of Each Genre by Decade.'
 
 + Contribution: 
     + Performed exploratory data analysis of song lyrics from MetroLyrics in order to write a blog of “data story” on trends and findings such as popularity of different genres by decade and popular topics in each genre.
