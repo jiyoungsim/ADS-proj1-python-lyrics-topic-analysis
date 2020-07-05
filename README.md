@@ -1,4 +1,4 @@
-# Data Storytelling--EDA of song lyrics
+# Data Storytelling--EDA of Song Lyrics
 ### A "data story" on the songs of our times
 
 <img src="figs/title1.jpeg" width="600">
