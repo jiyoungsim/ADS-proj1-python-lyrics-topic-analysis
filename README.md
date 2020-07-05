@@ -63,7 +63,7 @@ proj/
 ├── data/ data used in analytics
 ├── doc/ preprocessing, report, presentation files, and/or final deliverables
 ├── figs/ figures
-└── output/ analysis output, processed datasets, logs, or other processed things.
+└── output/ processed datasets.
 ```
 
 Please see each subfolder for a README file.
