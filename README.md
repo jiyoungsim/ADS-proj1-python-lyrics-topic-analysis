@@ -53,7 +53,7 @@
     + Performed exploratory data analysis of song lyrics from MetroLyrics in order to write a blog of “data story” on trends and findings such as popularity of different genres by decade and popular topics in each genre.
     + Used data visualization tools, TF-IDF scores, word clouds, and Latent Dirichlet Allocation in Python to analyze the corpus of 100,000+ song lyrics.
 
-+ **Keywords: Exploratory Data Analysis, Natural Language Processing, TF-IDF, Word Clouds, Latent Dirichlet Allocation, Topic Analysis, Data Visualization, Data Storytelling, Song Lyrics, Python**
++ **Keywords: Exploratory Data Analysis, Natural Language Processing, Text Data Analysis, TF-IDF, Word Clouds, Latent Dirichlet Allocation, Topic Analysis, Data Visualization, Data Storytelling, Song Lyrics, Python**
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
