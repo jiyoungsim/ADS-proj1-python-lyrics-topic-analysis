@@ -32,10 +32,12 @@
    
   + Word Clouds
        + By Genre
+       
           <img src="/figs/wordcloud_pop.png?raw=true" width="600">
           
        Again, 'love' was a popular word in most genres. An interesting observation on 'pop' is that it talks relatively less about 'love' compared to most other genres except 'Rock' and 'Hop-Hop'. 
        + By Decade
+       
            <img src="/figs/wordcloud_1970.png?raw=true" width="600">
            <img src="/figs/wordcloud_2010.png?raw=true" width="600">
     
