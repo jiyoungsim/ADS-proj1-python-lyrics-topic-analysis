@@ -1,4 +1,4 @@
-# ADS Project 1:  R Notebook on Lyrics Analysis
+# Data Storytelling--EDA of song lyrics
 
 ### Doc folder
 
