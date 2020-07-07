@@ -4,8 +4,11 @@
 <img src="figs/title1.jpeg" width="600">
 
 + This project is conducted by Young Sim
+
++ **Keywords: Exploratory Data Analysis, Natural Language Processing, Text Data Analysis, TF-IDF, Word Clouds, Latent Dirichlet Allocation, Topic Analysis, Data Visualization, Data Storytelling, Song Lyrics, Python**
+
 + **Objectives**: The goal of this project is to look deeper into the patterns and characteristics of different types of song lyrics. Applying tools from natural language processing, interesting findings are derived in this collection of song lyrics.
-+ **Summary**: Has it happened to you when a song was really speaking to you? Do you like some of your favorite songs for their lyrics? When you think of a particular music genre (e.g., classic rock), do you expect certain topics for the lyrics? This project conducts exploratory data analysis and topic analysis of song lyrics and find interesting findings and trends over different genres and decades from them. 
++ **Summary**: Has it happened to you when a song was really speaking to you? Do you like some of your favorite songs for their lyrics? When you think of a particular music genre (e.g., classic rock), do you expect certain topics for the lyrics? This project conducts exploratory data analysis and topic analysis of song lyrics and find interesting findings and trends over different genres and decades from them. See project notebook for more details.
 
   + Data Overview
   <img src="/figs/count_by_genre.png?raw=true" width="600">
@@ -52,8 +55,6 @@
 + **Contributions**: 
     + Performed exploratory data analysis of song lyrics from MetroLyrics in order to write a blog of “data story” on trends and findings such as popularity of different genres by decade and popular topics in each genre.
     + Used data visualization tools, TF-IDF scores, word clouds, and Latent Dirichlet Allocation in Python to analyze the corpus of 100,000+ song lyrics.
-
-+ **Keywords: Exploratory Data Analysis, Natural Language Processing, Text Data Analysis, TF-IDF, Word Clouds, Latent Dirichlet Allocation, Topic Analysis, Data Visualization, Data Storytelling, Song Lyrics, Python**
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
